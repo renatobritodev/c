@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
   /*
     Atribuição simples (=)
     Atribuição com soma (+=)
@@ -29,7 +30,6 @@ int main() {
 
   resultado /= 2;
   printf("Novo resultado com divisão: %d\n", resultado);
-  printf("-------------------------\n");
 
   return 0;
 }

@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
   /*
     Incremento: (++)
     Pré-Incremento: ++a
     Pós-Incremento: a++
-    
+
     Decremento: --
     Pre-Decremento: --a
     Pós-Decremento: a--
@@ -19,9 +20,9 @@ int main() {
   int numero = 3;
   printf("Começando com  o número: %d\n", numero);
 
-  numero+= 5;
+  numero += 5;
   printf("Número após incremento: %d\n", numero);
-  
+
   numero--;
   printf("Número após incremento: %d\n", numero);
 
