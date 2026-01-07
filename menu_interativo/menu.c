@@ -20,13 +20,24 @@ int main()
   case 1:
     srand(time(0));
     numeroSecreto = rand() % 10;
-    printf("Número secreto %d\n", numeroSecreto);
+    printf("Digite um número de 0 a 9: ");
+    scanf("%d", &palpite);
+    if (numeroSecreto == palpite)
+    {
+      printf("Você acertou|\n");
+      printf("Número secreto %d\n", numeroSecreto);
+    }
+    else
+    {
+      printf("Você errou!\n");
+      printf("Número secreto %d\n", numeroSecreto);
+    }
     break;
   case 2:
-    printf("Regras bla bla bla\n");
+    printf("As regras serão explicadas aqui.\n");
     break;
   case 3:
-    printf("Saída do jogo\n");
+    printf("Saindo do jogo\n");
     break;
   default:
     printf("Opção inválida!\n");
